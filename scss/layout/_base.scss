@@ -61,6 +61,14 @@ img{
 		max-width: 1250px;
 	}
 }
+.w1400{
+	width: 95% !important;
+	margin: auto;
+	@include mq(tb){
+		width: 100%;
+		max-width: 1500px;
+	}
+}
 
 
 // 幅調整用 margin = 要素外の空間
@@ -102,6 +110,12 @@ img{
 	margin-bottom : 10vh !important;
 	@include mq(tb){
 		margin-bottom: 20vh !important;
+	}
+}
+
+.l-mgb_1_s{
+	@include mq(sp){
+		margin-bottom: 1vh !important;
 	}
 }
 

@@ -66,6 +66,11 @@
                     font-size: clamp(10px, 1vw, 16px);
                 }
             }
+            &.-s10{
+                @include mq(sp){
+                    font-size: 10px;
+                }
+            }
             &.-s11{
                 @include mq(sp){
                     font-size: 11px;
